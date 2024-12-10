@@ -1,0 +1,43 @@
+.flex-portada {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.bici {
+    width: 250px;
+}
+
+.imagen {
+    width: 50%;
+}
+
+.persona {
+    display: flex;
+    flex-direction: column;
+    align-items: centeR; 
+    justify-content: center; 
+    text-align: center; 
+    width: 100%; 
+}
+
+.persona p {
+    text-align: justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+
+.persona a {
+    display: flex;
+    width: 110px;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    background-color: blue;
+    border-radius: 20px;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+}
